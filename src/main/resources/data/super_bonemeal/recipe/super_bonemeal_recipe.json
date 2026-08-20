@@ -6,25 +6,25 @@
       "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:bone_block"
+      "item": "super_bonemeal:super_bonemeal"
     },
     {
       "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:bone_block"
+      "item": "super_bonemeal:super_bonemeal"
+    },
+    {
+      "item": "super_bonemeal:super_bonemeal"
+    },
+    {
+      "item": "super_bonemeal:super_bonemeal"
     },
     {
       "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:bone_block"
-    },
-    {
-      "item": "minecraft:bone_block"
-    },
-    {
-      "item": "minecraft:bone_block"
+      "item": "super_bonemeal:super_bonemeal"
     },
     {
       "item": "minecraft:bone_block"
@@ -32,6 +32,6 @@
   ],
   "result": {
     "id": "super_bonemeal:super_bonemeal",
-    "count": 1
+    "count": 2
   }
 }
