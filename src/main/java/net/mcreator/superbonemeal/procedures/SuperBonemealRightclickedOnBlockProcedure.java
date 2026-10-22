@@ -26,7 +26,7 @@ public class SuperBonemealRightclickedOnBlockProcedure {
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.MOSS_BLOCK || (world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:saplings")))
 				|| (world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("minecraft:crops"))) || (world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("c:saplings")))
 				|| (world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("snowrealmagic:plants")))) {
-			for (int index0 = 0; index0 < 10; index0++) {
+			for (int _i1 = 0; _i1 < 10; _i1++) {
 				if (world instanceof Level _level) {
 					BlockPos _bp = BlockPos.containing(x, y, z);
 					if (BoneMealItem.growCrop(new ItemStack(Items.BONE_MEAL), _level, _bp) || BoneMealItem.growWaterPlant(new ItemStack(Items.BONE_MEAL), _level, _bp, null)) {
@@ -39,9 +39,9 @@ public class SuperBonemealRightclickedOnBlockProcedure {
 			sx = x - 25;
 			sy = y - 1;
 			sz = z - 25;
-			for (int index1 = 0; index1 < 50; index1++) {
-				for (int index2 = 0; index2 < 2; index2++) {
-					for (int index3 = 0; index3 < 50; index3++) {
+			for (int _i1 = 0; _i1 < 50; _i1++) {
+				for (int _i2 = 0; _i2 < 2; _i2++) {
+					for (int _i3 = 0; _i3 < 50; _i3++) {
 						if (!((world.getBlockState(BlockPos.containing(sx, sy, sz))).getBlock() == Blocks.SHORT_GRASS) && Math.random() < 0.1) {
 							if (world instanceof Level _level) {
 								BlockPos _bp = BlockPos.containing(sx, sy, sz);

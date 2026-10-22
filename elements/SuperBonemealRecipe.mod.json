@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 2,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.BONE_BLOCK"
-      }
+      "Blocks.BONE_BLOCK"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "Blocks.BONE_BLOCK"
-      },
-      {
-        "value": "Items.DYE#15"
-      },
-      {
-        "value": "Blocks.BONE_BLOCK"
-      },
-      {
-        "value": "Items.DYE#15"
-      },
-      {
-        "value": "Items.DYE#15"
-      },
-      {
-        "value": "Items.DYE#15"
-      },
-      {
-        "value": "Blocks.BONE_BLOCK"
-      },
-      {
-        "value": "Items.DYE#15"
-      },
-      {
-        "value": "Blocks.BONE_BLOCK"
-      }
+      "Blocks.BONE_BLOCK",
+      "Items.DYE#15",
+      "Blocks.BONE_BLOCK",
+      "Items.DYE#15",
+      "Items.DYE#15",
+      "Items.DYE#15",
+      "Blocks.BONE_BLOCK",
+      "Items.DYE#15",
+      "Blocks.BONE_BLOCK"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SuperBonemeal"
-    },
+    "recipeReturnStack": "CUSTOM:SuperBonemeal",
     "name": "super_bonemeal_recipe",
     "namespace": "mod"
   }

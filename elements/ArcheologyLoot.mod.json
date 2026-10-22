@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Archaeology",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:SuperBonemeal"
-            },
+            "item": "CUSTOM:SuperBonemeal",
             "weight": 10,
             "minCount": 0,
             "maxCount": 3,
@@ -27,9 +25,7 @@
           },
           {
             "type": "item",
-            "item": {
-              "value": "Blocks.AIR"
-            },
+            "item": "Blocks.AIR",
             "weight": 90,
             "minCount": 1,
             "maxCount": 1,

@@ -22,7 +22,7 @@ description="Tired of vanilla bonemeal only growing a tiny patch of grass? Super
 [[dependencies.super_bonemeal]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.190,)"
+    versionRange="[21.1.232,)"
     ordering="AFTER"
     side="BOTH"
 
